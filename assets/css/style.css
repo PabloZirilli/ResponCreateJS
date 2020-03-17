@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css?family=Titillium+Web&display=swap');
+/* font-family: 'Titillium Web', sans-serif; */
+
+* {display: block;}
+title{ display: none;}
+body {font-family: 'Titillium Web', sans-serif;}
+h1 {font-size: 2rem; line-height: 2.2rem;}
+p {font-size: 1rem; line-height: 1.6rem;}
+.gray {color: #9E9E9E;}
+.darkgray {color: #656565;}
+.btn-primary {background-color: #9E9E9E;color: #fff;text-transform: none !important;text-decoration: none !important;}
+.center {text-align: center;}
+.p {padding: 0;}
+.m {margin: 0;}
+.btn {margin: 2% 0; padding: 2%;text-align: center;display: block;}
+.container {margin: 4%;}
+
+/* Mobile */
+.mobile {display: block;padding: 5%;text-align: center;}
+.mobile p {font-size: 1rem;line-height: 1.2rem;}
+.mobile .btn {padding: 2%;margin: 2%;}
+
+/* Desktop */
+.desktop {display: block;padding: 10% 5%;}
+.desktop h1 {font-size: 3rem;line-height: 3.8rem;}
+.desktop p {font-size: 1.6rem;line-height: 1.8rem;}
+.desktop .btn {padding: 2%;margin: 4% 0;}
+
+/*Large */
+.large {display: block;padding: 2% 5%;}
+.large p {font-size: 0.9rem;line-height: 1rem;}
+.large .btn {padding: 1%;margin: 2% 0;}
